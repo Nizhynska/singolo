@@ -70,12 +70,27 @@ body{
     list-style: none;
 }
 .menu-link{
+    position: relative;
     padding-left: 35px;
     font-size: 12px;
     font-family: Lato-Bold;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
+}
+.menu-item::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background: #494e62;
+    border-radius: 50%;
+}
+.menu-item:first-child::before{
+    content: none;
 }
 .menu-link:hover{
     color: #c75e5a;
