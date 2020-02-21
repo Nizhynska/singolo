@@ -1,6 +1,5 @@
 @font-face{
-
-font-family: 'Lato-Black';
+    font-family: 'Lato-Black';
     src: url('./assets/fonts/Lato-Black/Lato-Black.eot');
     src: url('./assets/fonts/Lato-Black/Lato-Black.eot?iefix') format('eot'),
 
@@ -9,41 +8,57 @@ font-family: 'Lato-Black';
     url('./assets/fonts/Lato-Black/Lato-Black.ttf') format('truetype'),
 
     url('./assets/fonts/Lato-Black/Lato-Black.svg#Lato-Black') format('svg');
-}
+    }
 @font-face{
 
     font-family: 'Lato-Black';
-        src: url('./assets/fonts/Lato-Bold/Lato-Bold.eot');
-        src: url('./assets/fonts/Lato-Bold/Lato-Bold.eot?iefix') format('eot'),
-    
-        url('./assets/fonts/Lato-Bold/Lato-Bold.woff') format('woff'),
-    
-        url('./assets/fonts/Lato-Bold/Lato-Bold.ttf') format('truetype'),
-    
-        url('./assets/fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold') format('svg');
+    src: url('./assets/fonts/Lato-Bold/Lato-Bold.eot');
+    src: url('./assets/fonts/Lato-Bold/Lato-Bold.eot?iefix') format('eot'),
+
+    url('./assets/fonts/Lato-Bold/Lato-Bold.woff') format('woff'),
+
+    url('./assets/fonts/Lato-Bold/Lato-Bold.ttf') format('truetype'),
+
+    url('./assets/fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold') format('svg');
     }
-    @font-face{
+@font-face{
+    font-family: 'Lato-Light';
+    src: url('./assets/fonts/Lato-Light/Lato-Light.eot');
+    src: url('./assets/fonts/Lato-Light/Lato-Light.eot?iefix') format('eot'),
 
-        font-family: 'Lato-Light';
-            src: url('./assets/fonts/Lato-Light/Lato-Light.eot');
-            src: url('./assets/fonts/Lato-Light/Lato-Light.eot?iefix') format('eot'),
-        
-            url('./assets/fonts/Lato-Light/Lato-Light.woff') format('woff'),
-        
-            url('./assets/fonts/Lato-Light/Lato-Light.ttf') format('truetype'),
-        
-            url('./assets/fonts/Lato-Light/Lato-Light.svg#Lato-Bold') format('svg');
-        }
-        @font-face{
+    url('./assets/fonts/Lato-Light/Lato-Light.woff') format('woff'),
 
-            font-family: 'Lato-Regular';
-                src: url('./assets/fonts/Lato-Regular/Lato-Regular.eot');
-                src: url('./assets/fonts/Lato-Regular/Lato-Regular.eot?iefix') format('eot'),
-            
-                url('./assets/fonts/Lato-Regular/Lato-Regular.woff') format('woff'),
-            
-                url('./assets/fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'),
-            
-                url('./assets/fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg');
-            }
-           
+    url('./assets/fonts/Lato-Light/Lato-Light.ttf') format('truetype'),
+
+    url('./assets/fonts/Lato-Light/Lato-Light.svg#Lato-Bold') format('svg');
+}
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('./assets/fonts/Lato-Regular/Lato-Regular.eot');
+    src: url('./assets/fonts/Lato-Regular/Lato-Regular.eot?iefix') format('eot'),
+
+    url('./assets/fonts/Lato-Regular/Lato-Regular.woff') format('woff'),
+
+    url('./assets/fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'),
+
+    url('./assets/fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg');
+}
+body{
+    margin: 0;
+    padding: 0;;
+}
+.header{
+    background: #2d303a;
+}
+.logo{
+    cursor: pointer;
+}
+.logo-text{
+    text-decoration: none;
+    font-family: Lato-Bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+.logo-item{
+    color: #f06c64;
+}
