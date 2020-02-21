@@ -47,29 +47,30 @@ body{
 .header{
     background: #2d303a;
 }
-
-.logo-wrap{
-    display: inline-block;
+.header-wrap{
+    display: flex;
+    justify-content: space-around;
 }
-
 .logo-text{
+    display: flex;
+    align-self: center;
     text-decoration: none;
     font-family: Lato-Bold;
     font-size: 25px;
     color: #ffffff;
 }
-
+.logo{
+    display: flex;
+}
 .logo-item{
     color: #f06c64;
-}
-.menu-wrap{
-    display: inline-block;
 }
 .menu-item{
     display: inline;
     list-style: none;
 }
 .menu-link{
+    padding-left: 35px;
     font-size: 12px;
     font-family: Lato-Bold;
     color: #ffffff;
