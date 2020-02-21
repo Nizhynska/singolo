@@ -46,6 +46,8 @@ body{
 }
 .header{
     background: #2d303a;
+    border-bottom: 5px solid #323746;
+
 }
 .header-wrap{
     display: flex;
