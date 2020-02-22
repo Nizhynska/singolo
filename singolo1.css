@@ -45,6 +45,9 @@ body{
     box-sizing: border-box;
 }
 .header{
+    display: flex;
+    height: 95px;
+    align-items: center;
     background: #2d303a;
     border-bottom: 5px solid #323746;
 
@@ -96,4 +99,40 @@ body{
 }
 .menu-link:hover{
     color: #c75e5a;
+}
+.slider-wrap{
+    background: #f06c64;
+}
+.iPhone-Vertical{
+    position: relative;
+    top: 53px;
+    left: 80px;
+}
+.iPhone-Horizontal {
+    position: absolute;
+    right: 80px;
+    top: 175px;
+}
+.slider{
+    height: 600px;
+    position: relative;
+}
+ .button{
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .button-right{
+      position: absolute;
+      top: 50%;
+      right: 0;
+  }
+  .button-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
 }
