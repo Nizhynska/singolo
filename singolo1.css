@@ -102,6 +102,8 @@ body{
 }
 .slider-wrap{
     background: #f06c64;
+    border-bottom: 5px solid #ea676b;
+    margin-bottom: 65px;
 }
 .iPhone-Vertical{
     position: relative;
@@ -135,4 +137,19 @@ body{
     position: absolute;
     top: 50%;
     left: 0;
+}
+.logo-name{
+    text-transform: uppercase;
+}
+.our-services-heading{
+    font-size: 30px;
+    font-family: Lato-Black;
+    text-transform: capitalize;
+    color: #666d89;
+}
+.our-services-paragraph{
+    font-style: 18px;
+    font-family: Lato-Light;
+    color: #666d89;
+    margin-bottom: 50px;
 }
