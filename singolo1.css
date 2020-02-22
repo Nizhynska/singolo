@@ -153,3 +153,13 @@ body{
     color: #666d89;
     margin-bottom: 50px;
 }
+.information-heading{
+    font-size: 18px;
+    font-family: Lato-Black;
+    color: #666d89;
+}
+.information-text{
+    font-size: 12px;
+    font-family: Lato-Regular;
+    color: #666d89;
+}
