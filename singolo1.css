@@ -38,23 +38,36 @@ body{
     width: 960px;
     margin: 0 auto;
     padding: 0 10px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .header{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #2d303a;
     border-bottom: 5px solid #323746;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     min-height: 95px;
 }
 .header-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .logo-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
     text-decoration: none;
     font-family: Lato-Bold;
     font-size: 25px;
@@ -62,6 +75,8 @@ body{
     letter-spacing: -0.05rem;
 }
 .logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .logo-item{
@@ -69,7 +84,8 @@ body{
 }
 .menu-wrap{
     padding: 23px 0 16px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .menu-item{
     display: inline;
@@ -184,16 +200,25 @@ body{
     text-align: justify;
 }
 .information{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding-left: 0;
     margin: 0 -10px;
 }
 .information-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
     list-style: none;
-    flex: 1 0 28%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 28%;
+            flex: 1 0 28%;
     margin-bottom: 15px;
     padding: 0px 10px;
 }
