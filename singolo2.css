@@ -32,9 +32,25 @@
 }
 body{
     margin:0;
+    font-size:0;
 }
 h2{
     margin: 0;
+}
+h5{
+    margin: 0;
+}
+ul{
+    padding-left: 0px;
+}
+button{
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
 }
 .container{
     width: 960px;
@@ -45,6 +61,7 @@ h2{
 }
 .portfolio{
     background-color: #2d303a;
+    border-bottom: 5px solid #323746;
 }
 .section-title{
     font-size: 30px;
@@ -55,8 +72,88 @@ h2{
     font-family: Lato-Light;
 } 
 .portfolio-title{
+    padding-top: 65px;
     color: #666d89;
 }
 .portfolio-text{
+    margin-top: 30px;
+    margin-bottom: 15px;
     color: #767e9e;
+}
+.filter-button{
+    font-size: 12px;
+    font-family: Lato-Regular;
+    color: #767e9e;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 19px;
+    text-transform: capitalize;
+}
+.filter-button:hover{
+    color: #dedede;
+    border-color: #dedede;
+}
+.filter-button:last-child{
+    margin-right: 0;
+}
+.portfolio-images-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+}
+.portfolio-images{
+    margin-bottom: 20px;
+}
+.about-us{
+    padding-top: 65px;
+    padding-bottom: 72px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+    box-sizing: border-box;
+}
+.about-us-title{
+    color: #666d89;
+}
+.about-us-text{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    color: #767e9e;
+}
+.name{
+    font-size: 18px;
+    font-family: Lato-Black;
+    color: #666d89;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us-information{
+    font-size: 12px;
+    font-family: Lato-Regular;
+    margin-bottom: 28px;
+    color: #767e9e;
+}
+.about-us-item{
+    width: 32.3%;
+}
+.our-team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.social-img{
+    margin-right: 8px;
+}
+.social-img:last-child{
+    padding: 0;
+}
+.social-img:hover{
+    cursor: pointer;
+    background-color: #c1c1c1;
+    border-radius: 50%;
 }
