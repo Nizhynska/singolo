@@ -171,3 +171,7 @@ button{
     background-color: #c1c1c1;
     border-radius: 50%;
 }
+.filter-button.active{
+    color: #dedede;
+    border-color: #dedede;
+}
