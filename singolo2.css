@@ -62,23 +62,32 @@ button{
 .portfolio{
     background-color: #2d303a;
     border-bottom: 5px solid #323746;
+    padding-bottom: 48px;
+    box-sizing: border-box;
 }
 .section-title{
     font-size: 30px;
     font-family: Lato-Black;
 }
 .section-text{
-    font-size: 18px;
-    font-family: Lato-Light;
-} 
-.portfolio-title{
-    padding-top: 65px;
-    color: #666d89;
-}
-.portfolio-text{
-    margin-top: 30px;
+    font-family: Lato-Regular;
+    margin-top: 22px;
     margin-bottom: 15px;
     color: #767e9e;
+    letter-spacing: -0.01em;
+
+} 
+.portfolio-title{
+    padding-top: 60px;
+    color: #666d89;
+    letter-spacing: 0.006rem;
+}
+.portfolio-text{
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    color: #767e9e;
+    letter-spacing: -0.01rem;
 }
 .filter-button{
     font-size: 12px;
@@ -86,8 +95,9 @@ button{
     color: #767e9e;
     border: 1px solid #767e9e;
     border-radius: 5px;
-    padding: 5px;
-    margin-right: 10px;
+    padding: 3px 7px;
+    letter-spacing: -0.02rem;;
+    margin-right: 11px;
     margin-bottom: 19px;
     text-transform: capitalize;
 }
@@ -103,14 +113,12 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 70px;
-    box-sizing: border-box;
 }
 .portfolio-images{
     margin-bottom: 20px;
 }
 .about-us{
-    padding-top: 65px;
+    padding-top: 59px;
     padding-bottom: 72px;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
@@ -120,25 +128,31 @@ button{
     color: #666d89;
 }
 .about-us-text{
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 18px;
     margin-bottom: 45px;
+    line-height: 30px;
+    letter-spacing: -0.02rem;
     color: #767e9e;
 }
 .name{
     font-size: 18px;
     font-family: Lato-Black;
     color: #666d89;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 .about-us-information{
     font-size: 12px;
     font-family: Lato-Regular;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
     color: #767e9e;
+    margin-top: 8px;
+    line-height: 21.56px;
+    letter-spacing: -0.01rem;
 }
 .about-us-item{
-    width: 32.3%;
+    width: 32%;
 }
 .our-team{
     display: flex;
