@@ -63,6 +63,7 @@ a {
     padding-top: 59px;
     background-color: #f06c64;
     color: #f0d8d9;
+    border-bottom: 6px solid #ea676b;
 }
 .quote-heading {
     font-size: 30px;
@@ -106,6 +107,7 @@ a {
     border: none;
     letter-spacing: -0.006em;
     height: 182px;
+    resize: none;
 }
 .form-text::placeholder {
     color: #f48c8f;
@@ -159,7 +161,7 @@ a {
     justify-content: space-between;
     flex-direction: row;
     padding-top: 18px;
-    margin-bottom: 72px;
+    margin-bottom: 66px;
 }
 .contact-information {
     font-family: Lato-Regular;
