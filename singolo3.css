@@ -43,6 +43,9 @@ h5 {
 ul {
     padding-left: 0;
 }
+a {
+    text-decoration: none;
+}
 .container {
     width: 960px;
     margin: 0 auto;
@@ -53,42 +56,58 @@ ul {
 .form {
     display: flex;
     flex-direction: column;
-    width: 623px;
+    width: 618px;
+    padding-top: 2px;
 }
 .quote {
-    padding-top: 65px;
+    padding-top: 59px;
     background-color: #f06c64;
     color: #f0d8d9;
 }
 .quote-heading {
     font-size: 30px;
     font-family: Lato-Black;
-    margin-bottom: 35px;
+    margin-bottom: 0;
+    letter-spacing: -0.02rem;
 }
 .quote-text {
-    margin-bottom: 45px;
+    margin-bottom: 24px;
     font-size: 18px;
     font-family: Lato-Light;
+    line-height: 30px;
+    letter-spacing: -0.013rem;
+    margin-top: 19px;
 }
 .form-text {
-    padding: 12px 0;
+    padding-top: 9px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-left: 13px;
     border: none;
     display: flex;
     border-radius: 5px;
     font-size: 12px;
     font-family: Lato-Regular;
     background-color: #d6564f;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
     outline: none;
 }
 .form-text:last-child {
     margin-bottom: 0;
 }
+.form-input:nth-child(2) {
+    margin-bottom: 16px;
+}
 .form-input-detail {
-    height: 200px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    letter-spacing: -0.006em;
+    height: 182px;
 }
 .form-text::placeholder {
-    padding-left: 15px;
     color: #f48c8f;
 }
 .form-button{
@@ -100,22 +119,31 @@ ul {
     color: white;
 }
 .contact-information-heading {
+    letter-spacing: 0.01rem;
     font-family: Lato-Black;
     font-size: 18px;
 }
 .contact-information-text {
     font-family: Lato-Regular;
     font-size: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    letter-spacing: -0.007rem;
+    text-align: justify;
 }
 .contact-information-item {
     display: flex;
     font-size: 12px;
     font-family: Lato-Regular;
-    margin-bottom: 10px;
+    margin-bottom: -2px;
+    padding: 1px 2px;
 }
 .contact-information-item:last-child {
     margin-bottom: 0;
+    letter-spacing: -0.006rem;
+}
+.contact-information-list {
+    margin-top: 15px;
 }
 .contact-information {
     display: flex;
@@ -130,13 +158,18 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 73px;
+    padding-top: 18px;
+    margin-bottom: 72px;
 }
 .contact-information {
-    display: flex;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    margin-bottom: 30px;
+    line-height: 22px;
+    letter-spacing: -0.01rem;
 }
 .contact-item-text {
-    padding-left: 18px;
+    padding-left: 10px;
 }
 .contact-item-img {
     display: flex;
@@ -158,4 +191,33 @@ ul {
     display: flex;
     text-decoration: none;
     color: #f0d8d9;
+}
+.footer-wrap {
+    background-color: #2d303a;
+}
+.copyright {
+    display: flex;
+    color: #626883;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    align-self: center;
+}
+.footer-contact {
+    display: flex;
+    margin: 23px 0 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social-img:hover{
+    cursor: pointer;
+    background-color: #c1c1c1;
+    border-radius: 50%;
+}
+.footer-social-img {
+    margin-left: 8px;
+}
+.footer-contact-item:last-child {
+    margin-left: 0;
 }
